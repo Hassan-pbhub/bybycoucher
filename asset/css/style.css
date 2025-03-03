@@ -1,0 +1,192 @@
+.bg-black{
+    background:black
+}
+.text-black{
+    color:black
+}
+.border-black{
+    border-color:black !important
+}
+.border-hover-dark:hover{
+    background:black;
+    transition:0.2s ease-in;
+    color:white;
+    font-weight:bold;
+}
+.splide__pagination__page.is-active{
+    background:grey!important
+}
+.splide__pagination__page{
+    background:#ccc!important
+}
+.fw-100{
+    font-weight:350!important;
+}
+.fw-200{
+    font-weight:450!important;
+}
+.border-grey{
+    border:1px solid #ccc!important;
+}
+.btn-orange{
+    background:#ff3300;
+    color:white
+}
+.btn-black{
+    background:black;
+    color:white;
+}
+.btn-black:hover{
+    border:1px solid black;
+    background:transparent;
+}
+.sticky-btn{
+    position:fixed;
+    bottom:3%;
+    right:2%;
+    height:50px
+}
+.page-link{
+        color:black!important;
+}
+.page-item.active > .page-link{
+    background:black!important;
+    border:1px solid black!important;
+    color:white!important;
+}
+
+.underline{
+    position: relative;
+    &::after{
+        left: 0;
+        top: 100%;
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 2px;
+        background: #000;
+    }
+}
+.search-input::placeholder{
+    color:grey!important;
+    font-size:12px
+}
+.border-dashed{
+    border-right: 1px #ccc dashed!important;
+}
+
+@media screen and (max-width: 400px) {
+    .search-input {
+        width: 100%; /* Adjust width on smaller screens (if needed) */
+    }
+   
+}
+
+@media screen and (max-width: 700px) {
+   
+    .border-dashed{
+        border-bottom: 1px #ccc dashed!important;
+        border-right: 0px #ccc dashed!important;
+    }
+}
+
+@media screen and (min-width: 400px) {
+
+    
+.search-input{
+    width:300px!important;
+}
+}
+.nav-active-red:hover{
+    background:red;
+    color:white;
+    transition:0.3s  ease-in
+}
+.nav-active-red {
+    padding:4px 20px
+}
+.footer-link a:hover {
+    color:orange
+}
+.fw-400{
+    font-weight:500!important
+}
+.btn-red{
+    background:#d01818;
+    text-transform:uppercase;
+    color:white;
+}
+.btn-red:hover{
+    background:black;
+    transition:0.2s ease-in;
+    color:white;
+}
+.store-img{
+    height:230px;
+    width:230px;
+    object-fit:contain;
+    border:1px solid black
+}
+.btn-red-outline{
+    border:1px solid #d01818;
+    color:#d01818;
+}
+.btn-red-outline:hover{
+    border:1px solid #d01818;
+    color:white;
+    background:#d01818;
+    transition:0.2s ease-in
+}
+.bg-grey{
+    background:whitesmoke
+}
+.coupon-btn{
+    width:175.0px!important;
+    height:38px;
+    font-size:12px;
+    background:#d32f2f;
+    color:white;
+}
+.coupon-btn:hover{
+    background:#980606;
+    color:white;
+}
+.bg-grey-dark{
+    background:#ccc
+}
+.card-image{
+    width:200px!important;
+    height:200px!important;
+    object-fit:contain;
+}
+.border-full-dashed{
+    border:1px dashed black;
+}
+.ribn-red{
+    width: 115px;
+    float: left;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background: url(https://www.buybyvoucher.com/promotions/images/ribn-red.png) right no-repeat;
+    padding-right: 15px;
+}
+.ribn-red>span{
+    background: #f01b3b;
+    line-height: 24px;
+    display: inline-block;
+    width: 100%;
+}
+.start-icon-red{
+    color:red;
+    font-size:23px
+}
+.card-hover-red{
+    cursor:pointer
+}
+.card-hover-red:hover{
+    border:1px solid red;
+    transition:0.2s ease-in
+}
